@@ -25,12 +25,12 @@ Um simples sistema baseado em estruturas condicionais, estruturas de repetição
 
 <p>Aqui está algumas imagens do projeto</p>
 
- <div align="center">
- <img src="https://github.com/Nathaliaraphaella/Projeto-Banco-ETE/blob/main/img%20port%201.jpg?raw=true" width: 300px/>
+ <center>
+ <img src="https://github.com/Nathaliaraphaella/Projeto-Banco-ETE/blob/main/img%20port%201.jpg?raw=true" width: 200px/>
    <img src="https://github.com/Nathaliaraphaella/Projeto-Banco-ETE/blob/main/img%20port%202.jpg?raw=true" width: 200px/>
- </div>
+ </center>
  
  <div align="center">
- <img src="https://github.com/Nathaliaraphaella/Projeto-Banco-ETE/blob/main/img%20port%203.jpg?raw=true" width: 800px/>
+ <img src="https://github.com/Nathaliaraphaella/Projeto-Banco-ETE/blob/main/img%20port%203.jpg?raw=true" width: 200px/>
  </div>
 
