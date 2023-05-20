@@ -26,10 +26,14 @@ Um simples sistema baseado em estruturas condicionais, estruturas de repetição
 <p>Aqui está algumas imagens do projeto</p>
 
  <div align="center">
- <img src="https://github.com/Maycomwill/BancoETE/blob/main/1.jpg?raw=true" width: 300px/>
+ <img src="https://github.com/Nathaliaraphaella/Projeto-Banco-ETE/blob/main/img%20port%201.jpg?raw=true" width: 300px/>
  </div>
 
  <div align="center">
- <img src="https://github.com/Maycomwill/BancoETE/blob/main/2.jpg?raw=true" width: 500px/>
+ <img src="https://github.com/Nathaliaraphaella/Projeto-Banco-ETE/blob/main/img%20port%202.jpg?raw=true" width: 500px/>
+ </div>
+ 
+ <div align="center">
+ <img src="https://github.com/Nathaliaraphaella/Projeto-Banco-ETE/blob/main/img%20port%203.jpg?raw=true" width: 500px/>
  </div>
 
