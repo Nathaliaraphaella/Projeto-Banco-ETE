@@ -4,14 +4,12 @@
 programa
 {
 //Biblioteca para sortear os números da conta	
-inclua biblioteca Util --> u
 	funcao inicio()
-	{
-	
+	{	
 //Definir o teste lógico e declaração das variáveis
 	logico menu = verdadeiro
   	cadeia nome
-	inteiro opcao, cc, cp, depositoInicial
+	inteiro opcao, numConta, agencia, depositoInicial
    	real valorDeposito, saqueCc, saqueCp, saldoCc = 0.0, saldoCp = 0.0
    	
 //Estrutura de repetição indefinida (faça/enquanto)
@@ -33,14 +31,16 @@ inclua biblioteca Util --> u
 		escolha(opcao) {
 //Caso a opção do usuário seja 1, a seguinte sequência será executada
 			caso 1: 
-				escreva("Nome do Titular: ")
+				escreva("Nome do Titular: \n")
 				leia(nome)
 				escreva("\nBem vindo(a) " + nome + " ao Banco ETE\n")
-				escreva("Sua agência é: 0336\n")
-				cc=u.sorteia(1000, 9999)
-				cp=u.sorteia(1000, 9999)
-				escreva("Número da CC: " + cc + "-0" + "\n")
-				escreva("Número da CP: " + cp + "-1" + "\n\n")
+				escreva("Sua agência é: \n")
+				leia(agencia)
+				escreva("Número da Conta: \n")
+				leia(numConta)			
+				escreva("Agência: \n")	
+				escreva("Número da conta Corrente é: " + numConta + "-0\n")
+				escreva("Número da conta Poupança é: " + numConta  + "-1" + "\n\n")
 	      		escreva("Deseja realizar deposito inicial? 1 - SIM ; 2 - NÃO\n")
 	     		leia(depositoInicial)
 	     		
@@ -71,7 +71,7 @@ inclua biblioteca Util --> u
 					saqueCc = 0.0
 	     			
 	     			escreva("Seu saldo atual é de: R$ " + saldoCc + " reais\n")
-	     		}senao{
+	     		}senao se{
 	     			escreva("Necessário saldo para saque entre contas! \n")
 	     			}    		
 	     	pare
@@ -95,7 +95,7 @@ inclua biblioteca Util --> u
 					saldoCc = saldoCc + saqueCp
 					saqueCp = 0.0
 	     			escreva("Seu saldo atual é de: R$ " + saldoCp + " reais\n")
-	     		}senao{
+	     		}senao se{
 	     			escreva("Necessário saldo para saque entre contas! \n")
 	     			}
 			pare
@@ -108,7 +108,7 @@ inclua biblioteca Util --> u
 			 		saldoCp = saldoCp + valorDeposito
 			 		valorDeposito = 0.0
 			   		escreva("Seu saldo atual da CP é de: R$ " + saldoCp + " reais\n")
-			   	}senao{
+			   	}senao se{
 			   		escreva("Valor insuficiente na CC para transferir para CP\n")
 			   		}
 			pare
@@ -136,7 +136,7 @@ inclua biblioteca Util --> u
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 161; 
+ * @POSICAO-CURSOR = 182; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
