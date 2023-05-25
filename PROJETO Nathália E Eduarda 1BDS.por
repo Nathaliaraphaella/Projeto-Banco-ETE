@@ -71,7 +71,7 @@ programa
 					saqueCc = 0.0
 	     			
 	     			escreva("Seu saldo atual é de: R$ " + saldoCc + " reais\n")
-	     		}senao se{
+	     		}senao {
 	     			escreva("Necessário saldo para saque entre contas! \n")
 	     			}    		
 	     	pare
@@ -95,7 +95,7 @@ programa
 					saldoCc = saldoCc + saqueCp
 					saqueCp = 0.0
 	     			escreva("Seu saldo atual é de: R$ " + saldoCp + " reais\n")
-	     		}senao se{
+	     		}senao {
 	     			escreva("Necessário saldo para saque entre contas! \n")
 	     			}
 			pare
@@ -108,7 +108,7 @@ programa
 			 		saldoCp = saldoCp + valorDeposito
 			 		valorDeposito = 0.0
 			   		escreva("Seu saldo atual da CP é de: R$ " + saldoCp + " reais\n")
-			   	}senao se{
+			   	}senao {
 			   		escreva("Valor insuficiente na CC para transferir para CP\n")
 			   		}
 			pare
@@ -136,7 +136,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 182; 
+ * @POSICAO-CURSOR = 3912; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
